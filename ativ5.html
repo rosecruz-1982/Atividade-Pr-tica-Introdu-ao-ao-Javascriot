@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 3</title>
+</head>
+<body>
+    
+    <script>
+        let totalCompra = parseFloat (window.prompt("Digite o valor total da compra: R$"));
+        let valorPago = parseFloat (window.prompt("Digite o valor pago: R$"));
+        let diferenca;
+
+
+        diferenca = valorPago - totalCompra;   
+        if (diferenca <= 0) {
+
+            document.write ("O saldo é de R$ " + diferenca);
+
+        }
+         
+        else {
+
+            document.write ("O troco é de R$ " + diferenca);
+
+        }
+
+        
+
+    </script>
+
+</body>
+</html>
